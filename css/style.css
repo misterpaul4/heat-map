@@ -10,4 +10,52 @@
   align-items: center;
 }
 
-.flex-
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: red;
+}
+
+.header-item {
+  text-align: center;
+  padding: 20px;
+}
+
+.text-big {
+  font-size: 2rem;
+}
+
+.text-small {
+  font-size: 1rem;
+}
+
+.header-container {
+
+}
+
+
+/* Later */
+
+.arc-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 200px;
+}
+
+.section1 {
+  background-color: green;
+  position: relative;
+}
+
+.section2 {
+  background-color: yellow;
+}
+
+.section3 {
+  background-color: blue;
+}
+
+.main-heading {
+  position: fixed;
+}
