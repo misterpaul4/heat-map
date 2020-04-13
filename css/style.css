@@ -52,20 +52,30 @@ a {
 
 .section1 {
   background-color: green;
-  padding: 30px 0;
+  position: relative;
 }
 
 .main-heading {
-  margin: 0 auto;
-  flex-direction: column;  
+  position: absolute;
+  left: 50%;
+  width: auto;
+  transform:  translateX(-50%);
+  text-align: center;
 }
 
 .main-heading span {
-  display: block;
   text-align: center;
   background-color: white;
   padding: 5px;
   font-size: 2rem;
+}
+
+.main-heading span:first-child {
+  display: block;
+}
+
+.main-heading span:last-child {
+  display: inline-block;
 }
 
 /* Grid style */
@@ -74,7 +84,6 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  padding-top: 50px;
   width: 100%;
   color: white;
 }
