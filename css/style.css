@@ -80,6 +80,16 @@ a {
   display: inline-block;
 }
 
+.arc-grid-item2 span,
+.arc-grid-item2 p {
+  font-size: 1rem;
+}
+
+.button-subscribe span {
+  font-size: 0.8rem;
+  line-height: 1.8rem;
+}
+
 .main-heading span:first-child {
   display: block;
 }
@@ -165,11 +175,6 @@ a {
   margin: 10px 0;
 }
 
-.arc-grid-item2 span,
-.arc-grid-item2 p {
-  font-size: 1rem;
-}
-
 .arc-grid-item2 p {
   line-height: 1.75rem;
 }
@@ -177,7 +182,6 @@ a {
 .arc-grid-item2 h3 {
   font-size: 1.5rem;
   text-decoration: underline;
-
 }
 
 .underline {
@@ -200,6 +204,7 @@ a {
   align-self: center;
   padding-bottom: 5px;
   border-bottom: brown 6px solid;
+  margin-top: 50px;
 }
 
 .section3 {
@@ -244,9 +249,19 @@ a {
   margin-bottom: 30px;
 }
 
+.recommendation-photo {
+  padding-bottom: 40px;
+}
+
 /* section 4 */
 .guide {
   font-size: 0.75rem;
+}
+
+.section4 {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
 }
 
 .section4 h3 {
@@ -298,9 +313,4 @@ a {
   height: 40px;
   margin-bottom: 15px;
   text-align: right;
-}
-
-.button-subscribe span {
-  font-size: 0.8rem;
-  line-height: 1.8rem;
 }
