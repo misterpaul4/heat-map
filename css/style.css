@@ -16,10 +16,6 @@
   align-items: center;
 }
 
-.flex {
-  display: flex;
-}
-
 .header-item {
   text-align: center;
   padding: 20px;
@@ -140,7 +136,14 @@ a {
 
 /* styling secound part */
 
+.arc-grid-container2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .arc-gridX3-item-container {
+  flex: 1 1 33.3333%;
+  display: flex;
   flex-direction: column;
   border: solid 1px red;
 }
@@ -148,7 +151,6 @@ a {
 .arc-grid-item2 {
   display: block;
   width: 100%;
-  flex: 1 1 33.33333%;
 }
 
 .arc-grid-item2 span,
