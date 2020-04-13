@@ -14,7 +14,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: red;
 }
 
 .header-item {
@@ -31,7 +30,15 @@
 }
 
 .header-container {
+  background-color: red;
+}
 
+.header-item button {
+  background: red;
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 3px;
+  font-size: 1.2rem;
 }
 
 a {
