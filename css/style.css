@@ -147,6 +147,10 @@ a {
   padding: 20px;
 }
 
+.arc-grid-container2 .growX2 {
+  flex-grow: 1;
+}
+
 .arc-grid-item2 {
   display: block;
   width: 100%;
