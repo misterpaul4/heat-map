@@ -142,10 +142,10 @@ a {
 }
 
 .arc-gridX3-item-container {
-  flex: 1 1 33.3333%;
+  flex: 0 1 33.3333%;
   display: flex;
   flex-direction: column;
-  border: solid 1px red;
+  padding: 20px;
 }
 
 .arc-grid-item2 {
