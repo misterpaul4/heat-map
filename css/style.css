@@ -54,7 +54,11 @@ a {
 .arc-grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   margin-top: 200px;
+}
+
+.arc-gridX2-item-container {
 }
 
 .section1 {
