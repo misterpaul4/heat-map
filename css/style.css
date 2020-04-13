@@ -16,6 +16,10 @@
   align-items: center;
 }
 
+.flex {
+  display: flex;
+}
+
 .header-item {
   text-align: center;
   padding: 20px;
@@ -132,4 +136,32 @@ a {
   top: -2px;
   left: 45px;
   font-size: 0.7rem;
+}
+
+/* styling secound part */
+
+.arc-gridX3-item-container {
+  flex-direction: column;
+  border: solid 1px red;
+}
+
+.arc-grid-item2 {
+  display: block;
+  width: 100%;
+  flex: 1 1 33.33333%;
+}
+
+.arc-grid-item2 span,
+.arc-grid-item2 h3,
+.arc-grid-item2 p {
+  margin: 10px 0;
+}
+
+.arc-grid-item2 span,
+.arc-grid-item2 p {
+  font-size: 1rem;
+}
+
+.arc-grid-item2 h3 {
+  font-size: 1.5rem;
 }
