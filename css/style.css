@@ -19,10 +19,13 @@
 .header-item {
   text-align: center;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .text-big {
   font-size: 2rem;
+  margin-bottom: 10px;
 }
 
 .text-small {
@@ -44,6 +47,7 @@
 a {
   text-decoration: none;
 }
+
 
 /* Later */
 
