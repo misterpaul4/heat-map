@@ -153,7 +153,10 @@ a {
   width: 100%;
 }
 
-.arc-grid-item2 span,
+.arc-grid-item2:visited {
+  color: black;
+}
+
 .arc-grid-item2 h3,
 .arc-grid-item2 p {
   margin: 10px 0;
@@ -164,6 +167,28 @@ a {
   font-size: 1rem;
 }
 
+.arc-grid-item2 p {
+  line-height: 1.75rem;
+}
+
 .arc-grid-item2 h3 {
   font-size: 1.5rem;
+  text-decoration: underline;
+
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.margin-tp-btm {
+  display: block;
+  margin: 30px 0;
+}
+
+.arrow {
+  display: block;
+  margin-top: 50px;
+  padding: 20px;
+  width: 50px;
 }
