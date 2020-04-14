@@ -34,6 +34,10 @@
   color: black;
 }
 
+.l-strong {
+  font-weight: 700;
+}
+
 body {
   font-family: 'Baloo Paaji 2', cursive;
 }
@@ -41,6 +45,8 @@ body {
 p {
   font-family: 'Bitter', serif;
 }
+
+
 
 
 .flex-inverse,
@@ -164,6 +170,14 @@ a {
 
 .latest-article-section {
   padding-bottom: 50px;
+}
+
+.latest-article-section a {
+  color: #666;
+}
+
+.latest-article-section a p {
+  color: #333;
 }
 
 .tag {
