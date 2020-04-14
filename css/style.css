@@ -318,19 +318,29 @@ a {
 /* footer */
 footer {
   padding: 5rem;
-  background: yellow;
+  background: blueviolet;
   text-align: center;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  color: white;
 }
 
+.categories h4 {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
 
 .categories ul {
-  list-style-type: circle;
+  list-style-type: disc;
   display: flex;
   justify-content: center;
   padding-top: 3rem;
+  flex-wrap: wrap;
+}
+
+.categories li {
+  padding: 0.5rem 0;
 }
 
 .mg-left-right {
@@ -350,7 +360,46 @@ footer {
 }
 
 .footer-nav li {
-
   text-decoration: underline;
   padding: 1rem 0;
+}
+
+/* Person of the week */
+
+.head-person {
+  flex-direction: column;
+  margin-left: 2rem;
+}
+
+.head-person h4 {
+  align-self: flex-start;
+}
+
+.head-person p {
+  padding: 2rem 0; 
+}
+
+.person-article {
+  background-color: brown;
+  color: black;
+}
+
+.flex-start {
+  align-self: flex-start;
+}
+
+.photo {
+  align-self: flex-start;
+  background-color: cornsilk;
+  padding: 2rem 1rem;
+  margin-top: 0.5rem;
+}
+
+.head-person h3{
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.head-person h1 {
+  font-size: 1.5rem;
 }
