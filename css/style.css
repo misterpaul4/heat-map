@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500;600;700;800&family=Bitter:ital,wght@0,400;0,700;1,400&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -5,15 +7,15 @@
 }
 
 .grey-1 {
-  background-color: #666; 
+  background-color: #bbb; 
 }
 
 .grey-2 {
-  background-color: #555; 
+  background-color: #999; 
 }
 
 .grey-3 {
-  background-color: #444; 
+  background-color: #666; 
 }
 
 .grey-4 {
@@ -27,6 +29,19 @@
 .grey-6 {
   background-color: #111; 
 }
+
+.black {
+  color: black;
+}
+
+body {
+  font-family: 'Baloo Paaji 2', cursive;
+}
+
+p {
+  font-family: 'Bitter', serif;
+}
+
 
 .flex-inverse,
 .flex-center,
@@ -63,6 +78,10 @@ footer {
 .text-big {
   font-size: 2rem;
   margin-bottom: 10px;
+}
+
+.arc-grid-container strong {
+  font-size: 1.2rem;
 }
 
 .header-item button {
@@ -119,7 +138,7 @@ a {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   width: 100%;
-  color: white;
+  /* color: white; */
 }
 
 .arc-gridX2-item-container {
@@ -144,7 +163,6 @@ a {
 }
 
 .latest-article-section {
-  background-color: yellow;
   padding-bottom: 50px;
 }
 
@@ -166,7 +184,7 @@ a {
 }
 
 .arc-gridX3-item-container {
-  flex: 0 1 33.3333%;
+  flex: 0 1 33%;
   padding: 20px;
 }
 
@@ -179,7 +197,7 @@ a {
 }
 
 .arc-grid-item2:visited {
-  color: black;
+  /* color: black; */
 }
 
 .arc-grid-item2 h3,
@@ -210,9 +228,10 @@ a {
 }
 
 .centered-link {
+  font-size: 1.5rem;
   align-self: center;
   padding-bottom: 5px;
-  border-bottom: brown 6px solid;
+  border-bottom: #333 6px solid;
   margin-top: 50px;
 }
 
@@ -222,12 +241,12 @@ a {
 }
 
 .small-white {
-  color: white;
+  /* color: white; */
 }
 
 .big-white {
   font-size: 2rem;
-  color: white;
+  /* color: white; */
 }
 
 .mt-mb-1 {
@@ -236,6 +255,10 @@ a {
 
 .mb-3 {
   margin-bottom: 30px;
+}
+
+.ml-mr-1 {
+  margin: 2px;
 }
 
 .big-dark {
@@ -253,7 +276,7 @@ a {
 .featured-button {
   font-weight: bold;
   font-size: 1.25rem;
-  color: lightskyblue;
+  /* color: lightskyblue; */
   background-color: white;
   border-radius: 4px;
   border: none;
@@ -269,7 +292,7 @@ a {
 
 .recommendation-photo {
   background-color: grey; 
-  color: white; 
+  /* color: white;  */
   padding: 12rem 25rem;
 }
 
@@ -300,7 +323,7 @@ a {
 
 .guide-hero {
   background-color: lightslategray;
-  color: white;
+  /* color: white; */
 }
 
 .header-subscribe {
@@ -333,7 +356,7 @@ footer {
   padding: 5rem;
   background: blueviolet;
   justify-content: center;
-  color: white;
+  /* color: white; */
 }
 
 .categories h4 {
@@ -391,7 +414,7 @@ footer {
 
 .person-article {
   background-color: brown;
-  color: black;
+  /* color: black; */
   margin-bottom: 5rem;
 }
 
@@ -421,7 +444,7 @@ footer {
 
 .photo {
   border-radius: 10%;
-  color: white;
+  /* color: white; */
 }
 
 /* featured section Styling */
@@ -437,7 +460,7 @@ footer {
   width: 70%;
   background: green;
   padding-left: 2rem;
-  color: white;
+  /* color: white; */
 }
 
 .feature-book-photo {
