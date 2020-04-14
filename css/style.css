@@ -366,6 +366,14 @@ footer {
 
 /* Person of the week */
 
+.person-week {
+  padding: 3rem 1rem 0 1rem;
+}
+
+.person-week-container {
+  padding-bottom: 5rem;
+}
+
 .head-person {
   flex-direction: column;
   margin-left: 2rem;
@@ -382,17 +390,29 @@ footer {
 .person-article {
   background-color: brown;
   color: black;
+  margin-bottom: 5rem;
 }
 
 .flex-start {
   align-self: flex-start;
 }
 
-.photo {
+.person-week {
+  display: flex;
+  flex-direction: column;
+}
+
+.person-week-article-photo {
   align-self: flex-start;
   background-color: cornsilk;
   padding: 2rem 1rem;
   margin-top: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.head-person-photo {
+  background: black;
+  padding: 5rem;
 }
 
 .head-person h3{
@@ -402,4 +422,8 @@ footer {
 
 .head-person h1 {
   font-size: 1.5rem;
+}
+
+.photo {
+  border-radius: 10%;
 }
