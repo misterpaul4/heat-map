@@ -50,7 +50,7 @@ a {
 
 /* Tittle section 1 Style */
 
-.section1 {
+.latest-article-section-hero {
   background-color: green;
   position: relative;
 }
@@ -132,7 +132,7 @@ a {
   margin-right: 1rem;
 }
 
-.section2 {
+.latest-article-section {
   background-color: yellow;
   display: flex;
   flex-direction: column;
@@ -207,14 +207,14 @@ a {
   width: 50px;
 }
 
-.section2-footer {
+.centered-link {
   align-self: center;
   padding-bottom: 5px;
   border-bottom: brown 6px solid;
   margin-top: 50px;
 }
 
-.section3 {
+.recommendation-section {
   background-color: lightblue;
   text-align: center;
   padding: 30px 0;
@@ -268,29 +268,29 @@ a {
   font-size: 0.75rem;
 }
 
-.section4 {
+.guide-section {
   display: flex;
   flex-direction: column;
   padding-bottom: 50px;
 }
 
-.section4 h3 {
+.guide-section h3 {
   font-size: 1.5rem;
   margin: 10px 0 20px;
 }
 
-.section4 .arc-gridX3-item-container {
+.guide-section .arc-gridX3-item-container {
   padding: 60px;
 }
 
-.section4 ul {
+.guide-section ul {
   list-style: disc;
   margin-left: 30px;
   line-height: 2rem;
   font-size: 1.25rem;
 }
 
-.section4 a {
+.guide-section a {
   text-decoration: underline;
 }
 
@@ -440,7 +440,7 @@ footer {
 
 /* featured section */
 
-.featured {
+.featured-section {
   background: pink;
   position: relative;
   padding: 2rem;
