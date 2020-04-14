@@ -238,7 +238,8 @@ a {
   margin-bottom: 30px;
 }
 
-.recommendation-button button {
+.recommendation-button button,
+.featured-button {
   font-weight: bold;
   font-size: 1.25rem;
   color: lightskyblue;
@@ -432,10 +433,36 @@ footer {
 
 .featured {
   background: pink;
+  position: relative;
+  padding: 2rem;
+  margin-top: 7rem;
 }
 
 .featured-container {
-  width: 30%;
-  background: yellow;
+  width: 70%;
+  background: green;
   padding-left: 2rem;
+  color: white;
+}
+
+.feature-book-photo {
+  padding: 8rem 6rem;
+  background-color: grey;
+  position: absolute;
+  top: -3rem;
+  right: 7rem;
+}
+
+.featured-container h3 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.featured-container h1 {
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+.featured-container p {
+  padding: 2rem 0; 
 }
