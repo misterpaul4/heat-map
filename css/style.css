@@ -272,8 +272,6 @@ a {
 }
 
 .guide-section {
-  display: flex;
-  flex-direction: column;
   padding-bottom: 50px;
 }
 
@@ -333,9 +331,7 @@ footer {
   padding: 5rem;
   background: blueviolet;
   text-align: center;
-  display: flex;
   justify-content: center;
-  flex-direction: column;
   color: white;
 }
 
@@ -388,7 +384,6 @@ footer {
 }
 
 .head-person {
-  flex-direction: column;
   margin-left: 2rem;
 }
 
@@ -408,11 +403,6 @@ footer {
 
 .flex-start {
   align-self: flex-start;
-}
-
-.person-week {
-  display: flex;
-  flex-direction: column;
 }
 
 .person-week-article-photo {
@@ -490,4 +480,9 @@ footer {
 
 .goto-top a {
   color: white;
+}
+
+.flex-inverse {
+  display: flex;
+  flex-direction: column;
 }
