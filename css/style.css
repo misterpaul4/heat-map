@@ -427,3 +427,15 @@ footer {
 .photo {
   border-radius: 10%;
 }
+
+/* featured section */
+
+.featured {
+  background: pink;
+}
+
+.featured-container {
+  width: 30%;
+  background: yellow;
+  padding-left: 2rem;
+}
