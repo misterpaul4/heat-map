@@ -333,8 +333,8 @@ a {
   font-size: 1.25rem;
 }
 
-.guide-hero {
-  background-color: lightslategray;
+.guide-section a {
+  color: black;
 }
 
 .header-subscribe {
@@ -342,7 +342,7 @@ a {
 }
 
 .header-subscribe h2 {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .header-subscribe p {
@@ -354,7 +354,6 @@ a {
 .button-subscribe button {
   border: none;
   border-radius: 4px;
-  background-color: white;
   width: 300px;
   height: 40px;
   margin-bottom: 15px;
@@ -365,13 +364,12 @@ a {
 
 footer {
   padding: 5rem;
-  background: blueviolet;
   justify-content: center;
 }
 
 .categories h4 {
   text-transform: uppercase;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 .categories ul {
@@ -461,13 +459,11 @@ footer {
 
 .photo {
   border-radius: 10%;
-  /* color: white; */
 }
 
 /* featured section Styling */
 
 .featured-section {
-  background: pink;
   position: relative;
   padding: 2rem;
   margin-top: 7rem;
@@ -475,14 +471,11 @@ footer {
 
 .featured-container {
   width: 70%;
-  background: green;
   padding-left: 2rem;
-  /* color: white; */
 }
 
 .feature-book-photo {
   padding: 8rem 6rem;
-  background-color: grey;
   position: absolute;
   top: -50px;
   right: 50px;
@@ -490,14 +483,17 @@ footer {
 
 .featured-container h3 {
   margin-bottom: 1rem;
+  font-size: 1.25rem;
+  color: #666;
 }
 
 .featured-container h1 {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 
 .featured-container p {
-  padding: 2rem 0; 
+  padding: 2rem 0;
+  line-height: 2rem;
 }
 
 .goto-top {
