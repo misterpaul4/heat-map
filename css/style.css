@@ -315,10 +315,6 @@ a {
   padding: 15px 0;
 }
 
-.newsletter-photo {
-  padding: 5rem;
-}
-
 .button-subscribe button {
   border: none;
   border-radius: 4px;
@@ -478,4 +474,17 @@ footer {
 
 .featured-container p {
   padding: 2rem 0; 
+}
+
+.goto-top {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  padding: 0.5rem;
+  font-size: 2.2rem;
+  background: gray;
+}
+
+.goto-top a {
+  color: white;
 }
