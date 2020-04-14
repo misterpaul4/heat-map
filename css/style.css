@@ -4,6 +4,29 @@
   box-sizing: border-box;
 }
 
+:root {
+  --grey-1: #aaa;
+  --grey-2: #555;
+  --grey-3: #333;
+  --grey-4: #151515;
+}
+
+.grey-1 {
+  background-color: #aaa; 
+}
+
+.grey-2 {
+  background-color: #55; 
+}
+
+.grey-3 {
+  background-color: #333; 
+}
+
+.grey-4 {
+  background-color: #151515; 
+}
+
 .flex-inverse,
 .flex-center,
 .flex-between,
@@ -23,8 +46,16 @@
   justify-content: space-between;
 }
 
-.header-item {
+.header-item,
+.main-heading,
+.main-heading span,
+.recommendation-section,
+.guide-hero,
+footer {
   text-align: center;
+}
+
+.header-item {
   padding: 20px;
 }
 
@@ -49,7 +80,7 @@ a {
   text-decoration: none;
 }
 
-/* Tittle section 1 Style */
+/* Tittle latest-article-section-hero Style */
 
 .latest-article-section-hero {
   background-color: green;
@@ -62,12 +93,9 @@ a {
   left: 50%;
   width: auto;
   transform: translateX(-50%);
-  text-align: center;
 }
 
 .main-heading span {
-  text-align: center;
-  background-color: white;
   padding: 5px;
   font-size: 2rem;
 }
@@ -82,7 +110,10 @@ a {
   line-height: 1.8rem;
 }
 
-.main-heading span:first-child {
+.main-heading span:first-child,
+.arc-grid-item2,
+.margin-tp-btm,
+.arrow {
   display: block;
 }
 
@@ -115,7 +146,7 @@ a {
 
 .latest-art-sec-photo {
   padding: 2rem 1rem;
-  background-color: grey;
+  background-color: var(--grey-3);
   margin-right: 1rem;
 }
 
@@ -135,7 +166,7 @@ a {
   font-size: 0.7rem;
 }
 
-/* styling secound part */
+/* latest-article-section styling */
 
 .arc-grid-container2 {
   flex-wrap: wrap;
@@ -151,7 +182,6 @@ a {
 }
 
 .arc-grid-item2 {
-  display: block;
   width: 100%;
 }
 
@@ -177,12 +207,10 @@ a {
 }
 
 .margin-tp-btm {
-  display: block;
   margin: 30px 0;
 }
 
 .arrow {
-  display: block;
   margin-top: 50px;
   padding: 20px;
   width: 50px;
@@ -197,7 +225,6 @@ a {
 
 .recommendation-section {
   background-color: lightblue;
-  text-align: center;
   padding: 30px 0;
 }
 
@@ -248,11 +275,12 @@ a {
 }
 
 .recommendation-photo {
-  background-color: grey;  
+  background-color: grey; 
+  color: white; 
   padding: 12rem 25rem;
 }
 
-/* section 4 */
+/* Guide Section Styling */
 .guide {
   font-size: 0.75rem;
 }
@@ -278,7 +306,6 @@ a {
 }
 
 .guide-hero {
-  text-align: center;
   background-color: lightslategray;
   color: white;
 }
@@ -307,11 +334,11 @@ a {
   text-align: right;
 }
 
-/* footer */
+/* Footer */
+
 footer {
   padding: 5rem;
   background: blueviolet;
-  text-align: center;
   justify-content: center;
   color: white;
 }
@@ -351,7 +378,7 @@ footer {
   padding: 1rem 0;
 }
 
-/* Person of the week */
+/* Person of the week section Styling */
 
 .person-week {
   padding: 3rem 1rem 0 1rem;
@@ -401,9 +428,10 @@ footer {
 
 .photo {
   border-radius: 10%;
+  color: white;
 }
 
-/* featured section */
+/* featured section Styling */
 
 .featured-section {
   background: pink;
@@ -423,8 +451,8 @@ footer {
   padding: 8rem 6rem;
   background-color: grey;
   position: absolute;
-  top: -3rem;
-  right: 7rem;
+  top: -50px;
+  right: 50px;
 }
 
 .featured-container h3 {
