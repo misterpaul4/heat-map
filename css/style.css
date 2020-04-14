@@ -50,9 +50,6 @@ p {
   font-family: 'Bitter', serif;
 }
 
-
-
-
 .flex-inverse,
 .flex-center,
 .flex-between,
@@ -418,6 +415,11 @@ footer {
 
 .head-person {
   margin-left: 2rem;
+}
+
+.head-person h4 {
+  font-size: 2rem;
+  font-weight: 300;
 }
 
 .head-person p {
