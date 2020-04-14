@@ -117,12 +117,19 @@ a {
 }
 
 .pd-top {
-  padding-top: 100px;
+  padding-top: 12rem;
 }
 
 .arc-gridX2-item-container h1 {
   font-size: 2rem;
   line-height: 2.5rem;
+}
+
+.latest-art-sec-photo {
+  display: inline-block;
+  padding: 2rem 1rem;
+  background-color: grey;
+  margin-right: 1rem;
 }
 
 .section2 {
@@ -210,7 +217,7 @@ a {
 .section3 {
   background-color: lightblue;
   text-align: center;
-  padding-top: 30px;
+  padding: 30px 0;
 }
 
 .small-white {
@@ -251,7 +258,9 @@ a {
 }
 
 .recommendation-photo {
-  padding-bottom: 40px;
+  display: inline-block;
+  background-color: grey;  
+  padding: 12rem 25rem;
 }
 
 /* section 4 */
