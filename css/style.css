@@ -314,3 +314,41 @@ a {
   margin-bottom: 15px;
   text-align: right;
 }
+
+/* footer */
+footer {
+  padding: 5rem;
+  background: yellow;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.categories ul {
+  list-style-type: circle;
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+}
+
+.mg-left-right {
+  margin:0 1rem 0 0.5rem;
+}
+
+.footer-nav {
+  align-self: center;
+  width: 50%;
+}
+
+.footer-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 3rem;
+}
+
+.footer-nav li {
+  text-decoration: underline;
+}
