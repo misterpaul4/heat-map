@@ -277,6 +277,10 @@ a {
   margin: 2px;
 }
 
+.ml-mr-2 {
+  margin: 15px;
+}
+
 .recommendation-description {
   width: 40%;
   margin: 0 auto;
@@ -301,7 +305,6 @@ a {
 
 .recommendation-photo {
   background-color: grey; 
-  /* color: white;  */
   padding: 12rem 25rem;
 }
 
@@ -332,7 +335,6 @@ a {
 
 .guide-hero {
   background-color: lightslategray;
-  /* color: white; */
 }
 
 .header-subscribe {
@@ -365,7 +367,6 @@ footer {
   padding: 5rem;
   background: blueviolet;
   justify-content: center;
-  /* color: white; */
 }
 
 .categories h4 {
@@ -405,10 +406,6 @@ footer {
 
 /* Person of the week section Styling */
 
-.person-week {
-  padding: 3rem 1rem 0 1rem;
-}
-
 .person-week-container {
   padding-bottom: 5rem;
 }
@@ -423,12 +420,20 @@ footer {
 }
 
 .head-person p {
-  padding: 2rem 0; 
+  padding: 2rem 0;
+  line-height: 1.8rem; 
+}
+
+.head-person h3 {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.head-person span {
+  color: #666;
 }
 
 .person-article {
-  background-color: brown;
-  /* color: black; */
   margin-bottom: 5rem;
 }
 
@@ -437,14 +442,12 @@ footer {
 }
 
 .person-week-article-photo {
-  background-color: cornsilk;
   padding: 2rem 1rem;
   margin-top: 0.5rem;
   margin-left: 0.5rem;
 }
 
 .head-person-photo {
-  background: black;
   padding: 5rem;
 }
 
