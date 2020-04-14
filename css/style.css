@@ -4,32 +4,33 @@
   box-sizing: border-box;
 }
 
-.flex-center {
+.flex-inverse,
+.flex-center,
+.flex-between,
+.arc-grid-container2,
+.categories ul,
+.footer-nav ul,
+.flex-inverse {
   display: flex;
+}
+
+.flex-center {
   justify-content: center;
   align-items: center;
 }
 
 .flex-between {
-  display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .header-item {
   text-align: center;
   padding: 20px;
-  display: flex;
-  flex-direction: column;
 }
 
 .text-big {
   font-size: 2rem;
   margin-bottom: 10px;
-}
-
-.text-small {
-  font-size: 1rem;
 }
 
 .header-container {
@@ -76,15 +77,6 @@ a {
   padding: 20px 0;
 }
 
-.arc-gridX2-item-container span {
-  display: inline-block;
-}
-
-.arc-grid-item2 span,
-.arc-grid-item2 p {
-  font-size: 1rem;
-}
-
 .button-subscribe span {
   font-size: 0.8rem;
   line-height: 1.8rem;
@@ -92,10 +84,6 @@ a {
 
 .main-heading span:first-child {
   display: block;
-}
-
-.main-heading span:last-child {
-  display: inline-block;
 }
 
 /* Grid style */
@@ -126,7 +114,6 @@ a {
 }
 
 .latest-art-sec-photo {
-  display: inline-block;
   padding: 2rem 1rem;
   background-color: grey;
   margin-right: 1rem;
@@ -134,8 +121,6 @@ a {
 
 .latest-article-section {
   background-color: yellow;
-  display: flex;
-  flex-direction: column;
   padding-bottom: 50px;
 }
 
@@ -153,7 +138,6 @@ a {
 /* styling secound part */
 
 .arc-grid-container2 {
-  display: flex;
   flex-wrap: wrap;
 }
 
@@ -186,7 +170,6 @@ a {
 
 .arc-grid-item2 h3 {
   font-size: 1.5rem;
-  text-decoration: underline;
 }
 
 .underline {
@@ -219,7 +202,6 @@ a {
 }
 
 .small-white {
-  font-size: 1rem;
   color: white;
 }
 
@@ -258,8 +240,14 @@ a {
   padding: 10px 30px;
 }
 
+.recommendation-photo,
+.arc-gridX2-item-container span,
+.main-heading span:last-child,
+.latest-art-sec-photo {
+  display: inline-block; 
+}
+
 .recommendation-photo {
-  display: inline-block;
   background-color: grey;  
   padding: 12rem 25rem;
 }
@@ -289,12 +277,7 @@ a {
   font-size: 1.25rem;
 }
 
-.guide-section a {
-  text-decoration: underline;
-}
-
 .guide-hero {
-  justify-content: space-between;
   text-align: center;
   background-color: lightslategray;
   color: white;
@@ -340,7 +323,6 @@ footer {
 
 .categories ul {
   list-style-type: disc;
-  display: flex;
   justify-content: center;
   padding-top: 3rem;
   flex-wrap: wrap;
@@ -360,14 +342,12 @@ footer {
 }
 
 .footer-nav ul {
-  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding-top: 3rem;
 }
 
 .footer-nav li {
-  text-decoration: underline;
   padding: 1rem 0;
 }
 
@@ -385,10 +365,6 @@ footer {
   margin-left: 2rem;
 }
 
-.head-person h4 {
-  align-self: flex-start;
-}
-
 .head-person p {
   padding: 2rem 0; 
 }
@@ -404,7 +380,6 @@ footer {
 }
 
 .person-week-article-photo {
-  align-self: flex-start;
   background-color: cornsilk;
   padding: 2rem 1rem;
   margin-top: 0.5rem;
@@ -417,7 +392,6 @@ footer {
 }
 
 .head-person h3{
-  font-size: 1rem;
   margin-bottom: 1rem;
 }
 
@@ -454,13 +428,11 @@ footer {
 }
 
 .featured-container h3 {
-  font-size: 1rem;
   margin-bottom: 1rem;
 }
 
 .featured-container h1 {
   font-size: 1.5rem;
-  text-decoration: underline;
 }
 
 .featured-container p {
@@ -481,6 +453,5 @@ footer {
 }
 
 .flex-inverse {
-  display: flex;
   flex-direction: column;
 }
