@@ -315,6 +315,10 @@ a {
   padding: 15px 0;
 }
 
+.newsletter-photo {
+  padding: 5rem;
+}
+
 .button-subscribe button {
   border: none;
   border-radius: 4px;
