@@ -78,6 +78,10 @@ footer {
   text-align: center;
 }
 
+.header-container a {
+  color: #111;
+}
+
 .header-item {
   padding: 20px;
 }
@@ -381,10 +385,11 @@ footer {
 
 .categories li {
   padding: 0.5rem 0;
+  font-size: 1.5rem;
 }
 
 .mg-left-right {
-  margin:0 1rem 0 0.5rem;
+  margin:0 1.5rem 0 0.5rem;
 }
 
 .footer-nav {
@@ -512,3 +517,4 @@ footer {
 .flex-inverse {
   flex-direction: column;
 }
+
