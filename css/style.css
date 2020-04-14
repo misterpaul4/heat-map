@@ -34,6 +34,10 @@
   color: black;
 }
 
+.light-gray {
+  color: lightgray;
+}
+
 .l-strong {
   font-weight: 700;
 }
@@ -250,7 +254,6 @@ a {
 }
 
 .recommendation-section {
-  background-color: lightblue;
   padding: 30px 0;
 }
 
@@ -258,9 +261,11 @@ a {
   /* color: white; */
 }
 
-.big-white {
-  font-size: 2rem;
-  /* color: white; */
+.recommendation-title {
+  font-size: 3rem;
+  font-weight: 600;
+  display: inline-block;
+  background: #999;
 }
 
 .mt-mb-1 {
@@ -275,12 +280,7 @@ a {
   margin: 2px;
 }
 
-.big-dark {
-  font-size: 2rem;
-  color: black;
-}
-
-.small-dark {
+.recommendation-description {
   width: 40%;
   margin: 0 auto;
   line-height: 1.5rem;
@@ -290,8 +290,6 @@ a {
 .featured-button {
   font-weight: bold;
   font-size: 1.25rem;
-  /* color: lightskyblue; */
-  background-color: white;
   border-radius: 4px;
   border: none;
   padding: 10px 30px;
