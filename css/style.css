@@ -124,7 +124,6 @@ a {
   font-size: 2rem;
 }
 
-.arc-gridX2-item-container h1,
 .arc-gridX2-item-container span {
   padding: 20px 0;
 }
@@ -158,8 +157,9 @@ a {
   padding-top: 12rem;
 }
 
-.arc-gridX2-item-container h1 {
+.arc-gridX2-item-container .grey-5 {
   font-size: 2rem;
+  font-weight: bold;
   line-height: 2.5rem;
 }
 
