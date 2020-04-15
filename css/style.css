@@ -1,5 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500;600;700;800&family=Bitter:ital,wght@0,400;0,700;1,400&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+.grey-1 {
+  background-color: #bbb;
+}
+
+.grey-2 {
+  background-color: #999;
+}
+
+.grey-3 {
+  background-color: #666;
+}
+
+.grey-4 {
+  background-color: #333;
+}
+
+.grey-5 {
+  background-color: #222;
+}
+
+.grey-6 {
+  background-color: #111;
+}
+
+.black {
+  color: black;
+}
+
+.light-gray {
+  color: lightgray;
+}
+
+.l-strong {
+  font-weight: 700;
+}
+
+.light-gray2 {
+  color: #999;
+}
+
+body {
+  font-family: 'Baloo Paaji 2', cursive;
+}
+
+p {
+  font-family: 'Bitter', serif;
+}
+
+.flex-center,
+.flex-between,
+.arc-grid-container2,
+.categories ul,
+.footer-nav ul,
+.flex-inverse {
+  display: flex;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-between {
+  justify-content: space-between;
+}
+
+.header-item,
+.main-heading,
+.main-heading span,
+.recommendation-section,
+.guide-hero,
+footer {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-container a {
+  color: #111;
+}
+
+.header-item {
+  padding: 20px;
+}
+
+.text-big {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.arc-grid-container strong {
+  font-size: 1.2rem;
+}
+
+.header-item button {
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 3px;
+  font-size: 1.2rem;
+}
+
+/* Tittle latest-article-section-hero Style */
+
+.latest-article-section-hero {
+  position: relative;
+}
+
+.main-heading {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  width: auto;
+  transform: translateX(-50%);
+}
+
+.main-heading span {
+  padding: 5px;
+  font-size: 2rem;
+}
+
+.arc-gridX2-item-container h2,
+.arc-gridX2-item-container span {
+  padding: 20px 0;
+}
+
+.button-subscribe span {
+  font-size: 0.8rem;
+  line-height: 1.8rem;
+}
+
+.head-person span {
+  color: #666;
+}
+
+.recommendation-photo,
+.arc-gridX2-item-container span,
+.arc-gridX2-item-container h2,
+.main-heading span:last-child,
+.latest-art-sec-photo {
+  display: inline-block;
+}
+
+.main-heading span:first-child,
+.arc-grid-item2,
+.margin-tp-btm,
+.arrow {
+  display: block;
+}
+
+/* Grid style */
+
+.arc-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 100%;
+}
+
+.arc-gridX2-item-container {
+  padding: 20px 80px;
+}
+
+.pd-top {
+  padding-top: 12rem;
+}
+
+.arc-gridX2-item-container .grey-5 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 2.5rem;
+}
+
+.latest-art-sec-photo {
+  padding: 2rem 1rem;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+}
+
+.latest-article-section {
+  padding-bottom: 50px;
+}
+
+.latest-article-section a {
+  color: #666;
+}
+
+.arc-grid-item2 h3,
+.arc-grid-item2 p {
+  margin: 10px 0;
+}
+
+.arc-grid-item2 p {
+  line-height: 1.75rem;
+}
+
+.header-subscribe p {
+  font-size: 1.25rem;
+  line-height: 2rem;
+  padding: 15px 0;
+}
+
+.head-person p {
+  padding: 2rem 0;
+  line-height: 1.8rem;
+}
+
+.featured-container p {
+  padding: 2rem 0;
+  line-height: 2rem;
+}
+
+.latest-article-section a p {
+  color: #333;
+}
+
+.tag {
+  position: relative;
+}
+
+.tag-count {
+  position: absolute;
+  top: -2px;
+  left: 45px;
+  font-size: 0.7rem;
+}
+
+/* latest-article-section styling */
+
+.arc-grid-container2 {
+  flex-wrap: wrap;
+}
+
+.arc-gridX3-item-container {
+  flex: 0 1 33%;
+  padding: 20px;
+}
+
+.arc-grid-container2 .growX2 {
+  flex-grow: 1;
+}
+
+.arc-grid-item2 {
+  width: 100%;
+}
+
+.arc-grid-item2 h3 {
+  font-size: 1.5rem;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.margin-tp-btm {
+  margin: 30px 0;
+}
+
+.arrow {
+  margin-top: 50px;
+  padding: 20px;
+  width: 50px;
+}
+
+.centered-link {
+  font-size: 1.5rem;
+  align-self: center;
+  padding-bottom: 5px;
+  border-bottom: #333 6px solid;
+  margin-top: 50px;
+}
+
+.recommendation-section {
+  padding: 30px 0;
+}
+
+.recommendation-title {
+  font-size: 3rem;
+  font-weight: 600;
+  display: inline-block;
+  background: #999;
+}
+
+.mt-mb-1 {
+  margin: 2px 0;
+}
+
+.mb-3 {
+  margin-bottom: 30px;
+}
+
+.ml-mr-1 {
+  margin: 2px;
+}
+
+.ml-mr-2 {
+  margin: 15px;
+}
+
+.recommendation-description {
+  width: 40%;
+  margin: 0 auto;
+  line-height: 1.5rem;
+}
+
+.recommendation-button button,
+.featured-button {
+  font-weight: bold;
+  font-size: 1.25rem;
+  border-radius: 4px;
+  border: none;
+  padding: 10px 30px;
+}
+
+.recommendation-photo {
+  background-color: grey;
+  padding: 12rem 25rem;
+}
+
+/* Guide Section Styling */
+.guide {
+  font-size: 0.75rem;
+}
+
+.guide-section {
+  padding-bottom: 50px;
+}
+
+.guide-section h3 {
+  font-size: 1.5rem;
+  margin: 10px 0 20px;
+}
+
+.guide-section .arc-gridX3-item-container {
+  padding: 60px;
+}
+
+.guide-section ul {
+  list-style: disc;
+  margin-left: 30px;
+  line-height: 2rem;
+  font-size: 1.25rem;
+}
+
+.guide-section a {
+  color: black;
+}
+
+.header-subscribe {
+  align-self: center;
+}
+
+.header-subscribe h2 {
+  font-size: 3rem;
+}
+
+.button-subscribe button {
+  border: none;
+  border-radius: 4px;
+  width: 300px;
+  height: 40px;
+  margin-bottom: 15px;
+  text-align: right;
+}
+
+/* Footer */
+
+footer {
+  padding: 5rem;
+  justify-content: center;
+}
+
+.categories h4 {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.categories ul {
+  list-style-type: disc;
+  justify-content: center;
+  padding-top: 3rem;
+  flex-wrap: wrap;
+}
+
+.categories li {
+  padding: 0.5rem 0;
+  font-size: 1.5rem;
+}
+
+.mg-left-right {
+  margin: 0 1.5rem 0 0.5rem;
+}
+
+.footer-nav {
+  align-self: center;
+  width: 50%;
+}
+
+.footer-nav ul {
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 3rem;
+}
+
+.footer-nav li {
+  padding: 1rem 0;
+}
+
+/* Person of the week section Styling */
+
+.person-week-container {
+  padding-bottom: 5rem;
+}
+
+.head-person {
+  margin-left: 2rem;
+}
+
+.head-person h4 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.head-person h3 {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.person-article {
+  margin-bottom: 5rem;
+}
+
+.flex-start {
+  align-self: flex-start;
+}
+
+.person-week-article-photo {
+  padding: 2rem 1rem;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.head-person-photo {
+  padding: 5rem;
+}
+
+.head-person h2 {
+  font-size: 1.5rem;
+}
+
+.photo {
+  border-radius: 10%;
+}
+
+/* featured section Styling */
+
+.featured-section {
+  position: relative;
+  padding: 2rem;
+  margin-top: 7rem;
+}
+
+.featured-container {
+  width: 70%;
+  padding-left: 2rem;
+}
+
+.feature-book-photo {
+  padding: 8rem 6rem;
+  position: absolute;
+  top: -50px;
+  right: 50px;
+}
+
+.featured-container h3 {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  color: #666;
+}
+
+.featured-container h1 {
+  font-size: 2.5rem;
+}
+
+.goto-top {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  padding: 0.5rem;
+  font-size: 2.2rem;
+  background: gray;
+}
+
+.goto-top a {
+  color: white;
+}
+
+.flex-inverse {
+  flex-direction: column;
 }
