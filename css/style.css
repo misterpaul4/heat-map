@@ -144,6 +144,7 @@ a {
 
 .recommendation-photo,
 .arc-gridX2-item-container span,
+.arc-gridX2-item-container h2,
 .main-heading span:last-child,
 .latest-art-sec-photo {
   display: inline-block;
@@ -320,14 +321,6 @@ a {
   padding: 10px 30px;
 }
 
-.recommendation-photo,
-.arc-gridX2-item-container span,
-.arc-gridX2-item-container h2,
-.main-heading span:last-child,
-.latest-art-sec-photo {
-  display: inline-block;
-}
-
 .recommendation-photo {
   background-color: grey;
   padding: 12rem 25rem;
@@ -461,7 +454,7 @@ footer {
   padding: 5rem;
 }
 
-.head-person h1 {
+.head-person h2 {
   font-size: 1.5rem;
 }
 
