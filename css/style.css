@@ -124,6 +124,7 @@ a {
   font-size: 2rem;
 }
 
+.arc-gridX2-item-container h2,
 .arc-gridX2-item-container span {
   padding: 20px 0;
 }
@@ -294,6 +295,7 @@ a {
 
 .recommendation-photo,
 .arc-gridX2-item-container span,
+.arc-gridX2-item-container h2,
 .main-heading span:last-child,
 .latest-art-sec-photo {
   display: inline-block;
