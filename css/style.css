@@ -282,10 +282,6 @@ a {
   padding: 30px 0;
 }
 
-.small-white {
-  /* color: white; */
-}
-
 .recommendation-title {
   font-size: 3rem;
   font-weight: 600;
@@ -324,7 +320,6 @@ a {
   padding: 10px 30px;
 }
 
-<<<<<<< HEAD
 .recommendation-photo,
 .arc-gridX2-item-container span,
 .arc-gridX2-item-container h2,
@@ -333,8 +328,6 @@ a {
   display: inline-block;
 }
 
-=======
->>>>>>> 458f0610845811c88d51a430e269e22c7dd09bc9
 .recommendation-photo {
   background-color: grey;
   padding: 12rem 25rem;
