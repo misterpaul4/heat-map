@@ -1,8 +1,8 @@
 # A heatmap of smashing magazine webpage
 
-> The main aim of this project was to have a clear understanding of visual hirachy.
+> The main aim of this project was to have a clear understanding of visual hierachy.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./screenshot.png)
 
 Additional description about the project and its features.
 
@@ -13,7 +13,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://rawcdn.githack.com/misterpaul4/heat-map/c578c38c3c778f164274ed729b8aa0761ebf022a/index.html)
 
 ## Authors
 
